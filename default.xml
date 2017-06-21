@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<manifest>
+
+  <remote  name="aosp"
+           fetch="git://mirrors.ustc.edu.cn" />
+  <default revision="refs/tags/android-7.1.1_r1"
+           remote="aosp"
+           sync-j="4" />
+
+  <remote  name="github"
+           fetch="http://github.com/android-dre/" />
+<!--  <include name="include/aosp_ustc.xml" /> -->
+  <include name="include/bsp-android_dre.xml" />
+
+</manifest>
