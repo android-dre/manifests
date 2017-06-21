@@ -9,7 +9,7 @@
 
   <remote  name="github"
            fetch="http://github.com/android-dre/" />
-<!--  <include name="include/aosp_ustc.xml" /> -->
+  <include name="include/aosp_ustc.xml" /> 
   <include name="include/bsp-android_dre.xml" />
 
 </manifest>
