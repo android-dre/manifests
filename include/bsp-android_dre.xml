@@ -2,7 +2,8 @@
 <manifest>
   <!-- from Github repositories -->
   <project name="device-androiddre" path="device/nxp/androiddre" remote="github" revision="master" />
+  <project name="device-nxp-mixin" path="device/nxp/mixin" remote="github" revision="master" />
   <project name="kernel4.9.7" path="kernel/android_dre" remote="github" revision="master" />
   <project name="uboot201701" path="bootable/bootloader/uboot201701" remote="github" revision="master" />
-
+  
 </manifest>
