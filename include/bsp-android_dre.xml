@@ -6,6 +6,6 @@
   <project name="kernel4.9.7" path="kernel/android_dre" remote="github" revision="master" />
   <project name="uboot201701" path="bootable/bootloader/uboot201701" remote="github" revision="master" />
   <project name="androiddre_readme" path="device/nxp/6q/androiddre_readme" remote="github" revision="master" />
-  <project name="platform_build" path="build" remote="github" revision="master" />
-
+  <project name="platform_build" path="build" remote="github" revision="master" >
+     <copyfile src="core/root.mk" dest="Makefile" />
 </manifest>
